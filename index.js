@@ -10,7 +10,7 @@ require("dotenv").config();
 const app = express();
 app.use(express.json());
 
-app.use("/", (req,res) => {
+app.get("/", (req,res) => {
   res.send(`
     <h1>Welcome to FinTrack</h1>
     <p>Your personal finance companion</p>
