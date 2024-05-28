@@ -44,6 +44,7 @@ FinTrack is a backend system designed to help you manage your personal finances 
     - Create a MySQL database.
     - Update the `.env` file with your database credentials:
         ```env
+        PORT = 3000
         DATABASE_URL="mysql://username:password@host:port/database"
         JWT_SECRET="your_jwt_secret"
         ```
